@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>dizenfeksiya</title>
+</head>
+<body>
+   <!-- -----------------------------------------------header--------------------------------------------------- -->
+   <div class="header">
+    <div class="container header__container">
+        <img class="header__img" src="./image/Frame 48097963.png" alt="header__img">
+        <ul class="header__list">
+            <li class="header__item"><a  id="service" href="#" class="header__link">Service</a></li>
+            <li class="header__item"><a id="about" href="#" class="header__link">About</a></li>
+            <li class="header__item"><a id="faq" href="#" class="header__link">Faq</a></li>
+            <li class="header__item"><a id="contact" href="#" class="header__link">Contact</a></li>
+            
+        </ul>
+        <select  class="select" id="changelang" onchange="changeLanguage()">
+            <option value="uz">O'zbek</option>
+            <option value="eng">Ingliz</option>
+            <option value="ru">Rus</option>
+        
+          </select>
+        <a href="#" id="kirish" class="header__next-link">Kirish</a>
+        <i id="hamburger" class="fa fa-align-justify" "></i>
+        
+        <div class="modal" >
+            <button class="close"><i class="fa fa-close"></i></button>
+            <li class="header__item"><a href="#"  id="service"  class="modal__link">Service</a></li>
+            <li class="header__item"><a href="#" id="about" class="modal__link">About</a></li>
+            <li class="header__item"><a href="#" id="faq"  class="modal__link">Faq</a></li>
+            <li class="header__item"><a href="#" id="contact"  class="modal__link">Contact</a></li>
+        </div>
+    </div>
+   </div>
+
+   <!-- ------------------------------------------------hero------------------------------------------------------------ -->
+   <div class="hero">
+    <div class="container hero__container">
+        <div class="hero__box">
+                <h1 id="hero__title" class="hero__title">Dizenfeksiya xizmati </h1>
+                <p id="hero__text" class="hero__text">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p><br>
+                <img  src="./image/Group 1000004543.png" alt="hero__img" class="hero__img">
+                <img class="hero__image" src="./image/side-view-of-hand-with-surgical-glove-holding-ablution-bottle_23-2148571830 (1).png" alt="hero__img" >
+                <img  class="hero__picture"src="./image/side-view-of-hand-with-surgical-glove-holding-ablution-bottle_23-2148571830.png" alt="hero__img"  >
+                <button id="boglanish" class="hero__link">Bog’lanish</button>
+                <a href="#" class="hero__next-link"><img src="./image/Vector 5.png" alt="hero__img" width="25px"></a>
+            </div>
+        <img src="./image/WnYJyJjWq3U 1.png" alt="hero__img" class="next-img">
+    </div>
+   </div>
+   <!-- ------------------------------------------services------------------------------------------------------------------ -->
+   <div class="services">
+    <div class="container services__container">
+        <h1 id="service__title" class="services__title">Avfzalliklarimiz</h1>
+        <hr class="services__hr">
+        <ul class="services__list">
+            <li class="services__item">
+                <img src="./image/Mask group.png" alt="services__img" class="services__img">
+                <h2 id="serviceOne" class="services__next-title">Tezda xizmat ko’rsatish</h2>
+                <p id="service__text" class="services__text">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+            </li>
+            <li class="services__item">
+                <img src="./image/Mask group (1).png" alt="services__img" class="services__img">
+                <h2 id="serviceTwo" class="services__next-title">Yetuk mutahasislaimiz</h2>
+                <p id="service__textTwo"  class="services__text">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+            </li>
+            <li class="services__item">
+                <img src="./image/Mask group (3).png" alt="services__img" class="services__img">
+                <h2 id="serviceThree" class="services__next-title">Sizga maqul vaqtda</h2>
+                <p id="service__textThree"  class="services__text">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+   <!-- ------------------------------------------------------section---------------------------------------- -->
+   <div class="section">
+    <div class="container section__container">
+        <h1 id="sectionTitle" class="section__title">Klapa va zararli hashorot endi yo’q deb hisoblang !!!</h1>
+        <p id="sectionText" class="section__text">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+        <button id="sectionLink" class="section__link">Bog’lanish</button>
+    </div>
+</div>
+
+    <!-- ------------------------------------------service------------------------------------------------------------------- -->
+    <div class="service">
+        <div class="container service__container">
+            <h1 id="serviceNext" class="service__title">Service</h1>
+            <p id="oneTitle" class="service__text">Bu darsliklari sizning yuqori daraja olishingizga yordam beradi</p>
+            <ul class="serivce__list">
+                <li class="service__item">
+                    <h2 id="twoTitle" class="service__next-title">Boshlang’ich tushunchalar</h2>
+                    <h3 id="threeTitle" class="service__down-title">Nazariy bilimlar</h3>
+                    <a id="oneLink" href="#" class="service__link">16 dars</a>
+                    <img src="./image/Group (5).png" alt="service__img" class="service__img" width="80" height="80">
+                </li>
+                <li class="service__item">
+                    <h2 id="oneText" class="service__next-title">O’rta</h2>
+                    <h3 id="twoText" class="service__down-title">Nazariy va Amaliy bilimlar</h3>
+                    <a id="twoLink" href="#" class="service__link">23 dars</a>
+                    <img src="./image/Group (4).png" alt="service__img"  class="service__img" width="80" height="80">
+                </li>
+                <li class="service__item">
+                    <h2 id="threeText" class="service__next-title">Yuqori</h2>
+                    <h3 id="fiveText" class="service__down-title">Amaliy bilimlar</h3>
+                    <a id="threeLink" href="#" class="service__link">16 dars</a>
+                    <img src="./image/Group (3).png" alt="service__img"  class="service__img" width="80" height="80">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    
+    
+   <!-- ----------------------------------------------------------------avto------------------------------------------------------------------- -->
+   <div class="avto">
+    <div class="container avto__container">
+        <img src="./image/obrazovaniye_s 2.png" alt="avto__img" class="avto__img">
+        <div class="avto__box">
+            <img class="avto__image" src="./image/3dicons.png" alt="img" width="80" height="80">
+            <h1 id="avtoTitle" class="avto__title">Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</h1>
+            <button  id="avtoLink" class="avto__link">Bog’lanish</button>
+        </div>
+
+    </div>
+   </div>
+   <!-- --------------------------------------------------FAQ------------------------------------------ -->
+   <div class="faq">
+    <div class="container faq__container">
+        <hr class="faq__hr">
+        <div class="faq__box">
+            <h1 class="faq__title">FAQ</h1>
+            <ul class="faq__list">
+                <li class="faq__item">
+                    <h2 id="faqOne" class="faq__next-title">Kursdan nima topaman</h2>
+                   
+                  <div class="accordion-box">
+                    <p id="faqTwo" class="faq__text">Bu bir nonsti kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p><br>
+                  </div>
+                   <button class="accordion">  <img src="./image/Frame 1948753487.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                  <button  class="closeAcc"> <img src="./image/Frame 1948753489.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                </li>
+                <hr class="faq__next-hr">
+                <li class="faq__item">
+                    <h2 id="faqThree" class="faq__next-title">Kursdan nima topaman</h2>
+                   
+                  <div>
+                    <p id="faqFour" class="faq__text2">Bu bir nonsti kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p><br>
+                  </div>
+                   <button class="accordion2">  <img src="./image/Frame 1948753487.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                  <button  class="closeAcc2"> <img src="./image/Frame 1948753489.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                </li>
+               
+                <hr class="faq__next-hr">
+                <li class="faq__item">
+                    <h2 id="faqFive" class="faq__next-title">Kursdan nima topaman</h2>
+                   
+                  <div>
+                    <p id="faqSix" class="faq__text3">Bu bir nonsti kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p><br>
+                  </div>
+                   <button class="accordion3">  <img src="./image/Frame 1948753487.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                  <button  class="closeAcc3"> <img src="./image/Frame 1948753489.png" alt="faq__img" class="faq__img" width="52" height="52"></button>
+                </li>
+                <hr class="faq__next-hr">
+            </ul>
+        </div>
+
+    </div>
+   </div>
+   <!-- ------------------------------------contacts------- -->
+   <div class="contacts">
+    <div class="container contacts__container">
+        <ul class="contacts__list">
+            <li class="contacts__item">
+                <h2 id="contactOne" class="contacts__next-title">Malumotingizni qoldiring</h2>
+                <form action="#"></form>
+                <label for="name"></label>
+                <input class="contacts__input" type="text" id="name" placeholder="ism">
+                <form action="#"></form>
+                <label for="phone"></label>
+                <input class="contacts__input" type="tel" id="phone" placeholder="+998">
+                <div class="contacts__box">
+                    <input class="checkbox" type="checkbox" id="privacy">
+                    <p id="contactTwo" class="contacts__next-text">Maxfiylik siyosati</p>
+                </div>
+                <button id="contactThree" class="contacts__link">Yozilish</button>
+            </li>
+            <li class="contacts__next-item">
+                <h1 id="contactFour" class="contacts__title">Bizga ko'p yillardan beri kompaniyamizga ishonch bildirganlar talaygina</h1>
+                <img src="./image/person-in-white-chemical-protection-suit-holding-sprayer-with-disinfectant-chemicals-to-stop-spreading-highly-contagious-virus_342744-937-removebg-preview 1.png" alt="contacts__img" class="contacts__img">
+            </li>
+        </ul>
+    </div>
+</div>
+
+   <!-- ---------------------------------footer------------------------------ -->
+   <div class="footer">
+    <div class="container footer__container">
+        <img src="./image/Frame 48097963.png" alt="footer__img" class="footer__img" width="160" height="24">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <img class="footer__image" src="./image/Frame 1948753426.png" alt="footer__img" width="40" height="40">
+                <a id="footerOne" href="#" class="footer__link">Toshkent shahri  Yashnabod tumani  Mo’ljal Sergeli-4 bekat</a>
+            
+            </li>
+            <li class="footer__item">
+                <img  class="footer__image" src="./image/phone.png" alt="footer__img" width="40" height="40">
+                <a href="#" class="footer__link">+998 94 099 3434</a>
+            
+            </li><br>
+            <hr class="footer__hr">
+            <li class="footer__item">
+                <a id="footerTwo" href="#" class="footer__next-link">Facebook  </a>
+                <a id="footerThree" href="#" class="footer__next-link">Instagram </a>
+                <a id="footerFour" href="#" class="footer__next-link"> Telegram </a>
+            
+            </li>
+        </ul>
+
+    </div>
+    
+   </div>
+
+
+ 
+   <script src="./main.js"></script>
+</body>
+</html>
+

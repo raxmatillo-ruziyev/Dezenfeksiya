@@ -76,7 +76,7 @@ const language = {
         service: "Service",
         serviceNext: "Service",
         about: "About",
-        faq: "Faq",
+        faq: "Фaқ",
         contact: "Contact",
         kirish: "Login",
         hero__text: "Our company has been providing our services for many years. Our customers are satisfied with us.",

@@ -170,7 +170,7 @@ const language = {
 
     },
     uz: {
-        service: "Xizmat",
+        service: "Xizmatlar",
         serviceNext: "Xizmatlar",
         about: "Biz haqimizda",
         faq: "Faq",

@@ -261,7 +261,7 @@ function updateContent(lang) {
     document.getElementById('faqOne').textContent = language[lang].faqOne;
     document.getElementById('faqTwo').textContent = language[lang].faqTwo;
     document.getElementById('faqThree').textContent = language[lang].faqThree;
-    document.getElementById('faqFour').textContent = language[lang].avtoLink;
+    document.getElementById('faqFour').textContent = language[lang].faqFour;
     document.getElementById('faqFive').textContent = language[lang].faqFive;
     document.getElementById('faqSix').textContent = language[lang].faqSix;
     document.getElementById('contactOne').textContent = language[lang].contactOne;
